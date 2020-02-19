@@ -1,0 +1,28 @@
+.home{
+    min-height: calc(100vh - 107px);
+    width: 100%;
+
+    background: rgba(0,0,0,.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+        li{
+            text-align: center;
+            display: block;
+            padding: 8px;
+            a{
+                color: #590098;
+                font: {
+                    weight: bold;
+                }
+            }
+        }
+    }
+}

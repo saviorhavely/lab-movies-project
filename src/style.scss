@@ -11,4 +11,8 @@ body{
 
 #app{
     padding-top: 64px;
+
+    & > main{
+        max-width: 100vw;
+    }
 }

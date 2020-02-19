@@ -1,14 +1,16 @@
 import React from 'react';
 import './style.scss';
 
-const Home = () => {
+const Header = (props) => {
+    const {title} = props;
+
     return(
         <header id="main-header">
             <div className="container text-center">
-                Lab Movies
+                {title}
             </div> 
         </header>
     )
 }
 
-export default Home;
+export default Header;

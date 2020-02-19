@@ -1,0 +1,26 @@
+.list-movies{
+
+    article{
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-bottom: 20px;
+    }
+
+    figure{
+        margin: 0;
+
+        img{
+            max-width: 100%;
+        }
+    }
+
+    .content{
+        padding: 0 13px;
+
+        h5{
+            font-weight: 800;
+            font-size: 18px;
+        }
+    }
+}
