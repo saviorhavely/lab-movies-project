@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 
 import Home from './views/Home';
 import ListMovies from './views/ListMovies';
+import Movie from './views/Movie';
 
 import './style.scss';
 
@@ -23,6 +24,7 @@ const App = () => {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/listar" component={ListMovies} />
+                        <Route exact path="/movie/:id" component={Movie} />
                     </Switch>
                 </Router>
             </main>

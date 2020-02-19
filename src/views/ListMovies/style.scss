@@ -1,7 +1,6 @@
 .list-movies{
 
     article{
-        display: flex;
         flex-wrap: wrap;
 
         padding-bottom: 20px;
@@ -15,12 +14,23 @@
         }
     }
 
-    .content{
-        padding: 0 13px;
+    .about{
+        padding: 10px 4px 50px 4px;
+        position: relative;
 
-        h5{
-            font-weight: 800;
-            font-size: 18px;
+        a{
+            position: absolute;
+            bottom: 0;
         }
     }
+
+    h5{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    
 }
